@@ -1,2 +1,2 @@
-# MiniHomeStead
-Craig's Website
+# music with code
+My coding journey
