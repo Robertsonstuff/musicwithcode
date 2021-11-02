@@ -13,7 +13,7 @@
 .bgimg-1 {
     background-image: url('output.gif');
     /*min-height: 100%;*/
-    box-shadow: 0 0 20px 0 rgb(0,0,0,0.2);
+    box-shadow: 0 0 35px 0 rgb(0,0,0,0.2);
 }
     
     /* Second image (Portfolio) 
