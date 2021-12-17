@@ -9,11 +9,9 @@
     background-size: cover;
 }
     
-    /* First image (Logo. Full height) */
+    /* First image (phone) */
 .bgimg-1 {
-    background-image: url('output.gif');
-    /*min-height: 100%;*/
-    box-shadow: 0 0 35px 0 rgb(0,0,0,0.4);
+    display: none;
 }
     
     /* Second image (Portfolio) 
@@ -33,8 +31,12 @@
 
     
     /* Turn off parallax scrolling for tablets and phones */
-    @media only screen and (max-device-width: 1600px) {
+    @media only screen and (min-device-width: 768px) {
 .bgimg-1, .bgimg-2, .bgimg-3 {
+    display: block;
+    background-image: url('output.gif');
+    width: 100%;
+    box-shadow: 0 0 35px 0 rgb(0,0,0,0.4);
     background-attachment: scroll;
     min-height: 400px;
     }
