@@ -36,7 +36,6 @@
     display: block;
     background-image: url('output.gif');
     width: 100%;
-    box-shadow: 0 20px rgb(0,0,0,0.2);
     background-attachment: scroll;
     min-height: 400px;
 
@@ -49,7 +48,7 @@
 }
 
 #about .w3-content .w3-container .w3-padding-64 {
-    height: 200px;
+    height: 500px;
     background-color: black; /* For browsers that do not support gradients */
     background-image: linear-gradient(black, white);
 }
