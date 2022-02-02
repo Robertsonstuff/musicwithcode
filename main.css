@@ -44,8 +44,12 @@
 }
 
 .w3-container {
+
+    box-shadow: 3px 10px 10px 3px rgba(0, 0, 0, 0.2);
+}
+
+#about {
     height: 200px;
     background-color: black; /* For browsers that do not support gradients */
     background-image: linear-gradient(black, white);
-    box-shadow: 3px 10px 10px 3px rgba(0, 0, 0, 0.2);
 }
