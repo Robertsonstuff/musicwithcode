@@ -1,5 +1,9 @@
 
-
+body {
+    height: 500px;
+    background-color: black; /* For browsers that do not support gradients */
+    background-image: linear-gradient(black, white);
+}
     
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -47,8 +51,4 @@
     box-shadow: 3px 10px 10px 3px rgba(0, 0, 0, 0.2);
 }
 
-#about .w3-content {
-    height: 500px;
-    background-color: black; /* For browsers that do not support gradients */
-    background-image: linear-gradient(black, white);
-}
+
