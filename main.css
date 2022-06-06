@@ -1,5 +1,19 @@
 
+html {
+	height: 2000px;
+	background-color: red;
+	background-image: url('output.gif');
+	background-size: 100% auto;
+	background-position: top center;
+	background-attachment: fixed;
+	}
 
+body {
+	height: 100%;
+	background-image: linear-gradient(hsl(10,90,66), transparent 70%);
+	background-size: 100% 100%;
+	mix-blend-mode: difference;
+	}
     
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
