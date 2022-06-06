@@ -17,11 +17,11 @@ width:100%;
     top:0;
     left:0;
 }
-.leaf div{
+.face div{
 position:absolute ;
 display:block ;
 }
-.leaf div:nth-child(1){
+.face div:nth-child(1){
     left:20%; 
     animation:fall 15s linear infinite ;
     animation-delay:-2s;
