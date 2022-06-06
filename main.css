@@ -8,7 +8,7 @@ background-color:white;
 section{
 height:100%;
 width:100%;
-  position:absolute ;  background:radial-gradient(#333,#000);
+  position:absolute ;  background:radial-gradient(#f2f0f0,#e3dede);
 }
 .face{
     position:absolute ;
