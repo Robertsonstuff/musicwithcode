@@ -54,17 +54,14 @@ background-color:white;
 section{
 height:100%;
 width:100%;
-  position:absolute ;  background:radial-gradient(#f2f0f0,#e3dede);
 }
 .face{
-    position:absolute ;
     width:100%;
     height:100%;
     top:0;
     left:0;
 }
 .face div{
-position:absolute ;
 display:block ;
 }
 .face div:nth-child(1){
