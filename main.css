@@ -4,6 +4,53 @@ margin:0;
 padding:0;
 background-color:white;
 }
+
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+    /* First image (phone) */
+.bgimg-1 {
+    display: none;
+}
+    
+    /* Second image (Portfolio) 
+.bgimg-2 {
+    background-image: url("/w3images/parallax2.jpg");
+    min-height: 400px;
+    }
+    
+     Third image (Contact) 
+.bgimg-3 {
+    background-image: url("/w3images/parallax3.jpg");
+    min-height: 400px;
+}
+    */
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+    
+    /* Turn off parallax scrolling for tablets and phones */
+    @media only screen and (min-device-width: 768px) {
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    display: block;
+    background-image: url('output.gif');
+    width: 100%;
+    background-attachment: scroll;
+    min-height: 400px;
+
+    }
+}
+
+.w3-container {
+
+    box-shadow: 3px 10px 10px 3px rgba(0, 0, 0, 0.2);
+}
 section{
 height:100%;
 width:100%;
@@ -151,53 +198,6 @@ display:block ;
     transform: translate3d(0, 0, 1px) rotate(360deg);
   }
 }
-
-/* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-    
-    /* First image (phone) */
-.bgimg-1 {
-    display: none;
-}
-    
-    /* Second image (Portfolio) 
-.bgimg-2 {
-    background-image: url("/w3images/parallax2.jpg");
-    min-height: 400px;
-    }
-    
-     Third image (Contact) 
-.bgimg-3 {
-    background-image: url("/w3images/parallax3.jpg");
-    min-height: 400px;
-}
-    */
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
-
-    
-    /* Turn off parallax scrolling for tablets and phones */
-    @media only screen and (min-device-width: 768px) {
-.bgimg-1, .bgimg-2, .bgimg-3 {
-    display: block;
-    background-image: url('output.gif');
-    width: 100%;
-    background-attachment: scroll;
-    min-height: 400px;
-
-    }
-}
-
-.w3-container {
-
-    box-shadow: 3px 10px 10px 3px rgba(0, 0, 0, 0.2);
-}
-
 /* #about: {
     height: 500px;
     background-color: black; /* For browsers that do not support gradients */
