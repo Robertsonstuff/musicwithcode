@@ -6,6 +6,17 @@ background-color:white;
 overflow: hidden;
 }
 
+body::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: white;
+}
 
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
