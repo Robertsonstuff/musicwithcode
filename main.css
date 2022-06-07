@@ -117,7 +117,7 @@ position: absolute;
 
 } 
 .face div:nth-child(9){
-    left:93%; 
+    left:15%; 
     animation:fall 40s linear infinite ;
     animation-delay:-2s;
 
@@ -147,7 +147,7 @@ position: absolute;
 
 } 
 .face div:nth-child(14){
-    left:65%; 
+    left:8%; 
     animation:fall 20s linear infinite ;
     animation-delay:-2s;
 
@@ -159,7 +159,7 @@ position: absolute;
 
 } 
 .face div:nth-child(16){
-    left:85%; 
+    left:5%; 
     animation:fall 5s linear infinite ;
     animation-delay:-2s;
 
