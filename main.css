@@ -219,8 +219,6 @@ position: absolute;
     transform: translate3d(0, 0, 1px) rotate(360deg);
   }
 }
-/* #about: {
-    height: 500px;
-    background-color: black; /* For browsers that do not support gradients */
-    background-image: linear-gradient(black, white);
-} */
+#about: {
+  padding-top: 20%;
+} 
