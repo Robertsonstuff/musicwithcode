@@ -130,37 +130,37 @@ position: absolute;
 } 
 .face div:nth-child(11){
     left:23%; 
-    animation:fall 15s linear infinite ;
+    animation:fall 5s linear infinite ;
     animation-delay:-2s;
 
 } 
 .face div:nth-child(12){
     left:43%; 
-    animation:fall 15s linear infinite ;
+    animation:fall 20s linear infinite ;
     animation-delay:-2s;
 
 } 
 .face div:nth-child(13){
     left:55%; 
-    animation:fall 15s linear infinite ;
+    animation:fall 25s linear infinite ;
     animation-delay:-2s;
 
 } 
 .face div:nth-child(14){
     left:65%; 
-    animation:fall 15s linear infinite ;
+    animation:fall 20s linear infinite ;
     animation-delay:-2s;
 
 } 
 .face div:nth-child(15){
     left:75%; 
-    animation:fall 15s linear infinite ;
+    animation:fall 10s linear infinite ;
     animation-delay:-2s;
 
 } 
 .face div:nth-child(16){
     left:85%; 
-    animation:fall 15s linear infinite ;
+    animation:fall 5s linear infinite ;
     animation-delay:-2s;
 
 } 
