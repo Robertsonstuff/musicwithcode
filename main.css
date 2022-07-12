@@ -226,7 +226,7 @@ position: absolute;
 opacity: 0.2;
 }
 .face2 div:nth-child(1){
-    left:20%; 
+    left:13%; 
     animation:fall 15s linear infinite ;
     animation-delay:-2s;
 
@@ -262,7 +262,7 @@ opacity: 0.2;
 
 } 
 .face2 div:nth-child(7){
-    left:35%; 
+    left:91%; 
     animation:fall 20s linear infinite ;
     animation-delay:-2s;
 
