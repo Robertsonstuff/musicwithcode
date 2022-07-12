@@ -87,6 +87,7 @@ position: absolute;
 .face div{
 display:block ;
 position: absolute;
+opacity: 0.3;
 }
 .face div:nth-child(1){
     left:20%; 
