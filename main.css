@@ -220,6 +220,95 @@ opacity: 0.2;
     transform: translate3d(0, 0, 1px) rotate(360deg);
   }
 }
+.face2 div{
+display:block ;
+position: absolute;
+opacity: 0.2;
+}
+.face2 div:nth-child(1){
+    left:20%; 
+    animation:fall 15s linear infinite ;
+    animation-delay:-2s;
+
+} 
+.face2 div:nth-child(2){
+    left:13%; 
+    animation:fall 25s linear infinite ;
+    animation-delay:-2s;
+
+} 
+.face2 div:nth-child(3){
+    left:85%; 
+    animation:fall 35s linear infinite ;
+    animation-delay:-2s;
+
+} 
+.face2 div:nth-child(4){
+    left:80%; 
+    animation:fall 45s linear infinite ;
+    animation-delay:-2s;
+
+} 
+.face2 div:nth-child(5){
+    left:10%; 
+    animation:fall 5s linear infinite ;
+    animation-delay:-2s;
+
+} 
+.face2 div:nth-child(6){
+    left:15%; 
+    animation:fall 10s linear infinite ;
+    animation-delay:-2s;
+
+} 
+.face2 div:nth-child(7){
+    left:35%; 
+    animation:fall 20s linear infinite ;
+    animation-delay:-2s;
+
+} 
+.face2 div:nth-child(8){
+    left:95%; 
+    animation:fall 30s linear infinite ;
+    animation-delay:-2s;
+
+} 
+
+
+@keyframes fall{
+    0%{
+        opacity:1;
+        top:-10%;
+        transform:translateX (20px) rotate(0deg);
+    }
+    20%{
+        opacity:0.3;
+        transform:translateX (-20px) rotate(45deg);
+    }
+    40%{
+
+        transform:translateX (-20px) rotate(90deg);
+    }
+    60%{
+        
+       transform:translateX (-20px) rotate(135deg); 
+    }
+    80%{
+    
+        transform:translateX (-20px) rotate(180deg);
+    }
+    100%{
+        
+        top:110%;
+        transform:translateX (-20px) rotate(225deg);
+    }
+}
+
+@keyframes move {
+  100% {
+    transform: translate3d(0, 0, 1px) rotate(360deg);
+  }
+}
 #about {
   padding-top: 15%;
 } 
