@@ -223,3 +223,7 @@ opacity: 0.2;
 #about {
   padding-top: 15%;
 } 
+
+#about h3 img {
+  padding: 15%;
+}
