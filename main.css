@@ -313,9 +313,6 @@ opacity: 0.2;
   padding-top: 15%;
 } 
 
-#about h3 a img {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+#about h3 {
   padding: 10%;
 }
