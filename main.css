@@ -314,5 +314,8 @@ opacity: 0.2;
 } 
 
 #about h3 img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   padding: 10%;
 }
